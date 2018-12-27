@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".CurrentlyPlaying">
+
+    <TextView
+        android:id="@+id/current_track_creator"
+        style="@style/CurrentlyPlayingAuthorTextView" />
+
+    <TextView
+        android:id="@+id/current_track_title"
+        style="@style/CurrentlyPlayingTrackTextView" />
+
+    <LinearLayout style="@style/IconsLinearLayout">
+
+        <ImageView
+            android:id="@+id/rewind_icon"
+            style="@style/IconImageView"
+            android:src="@drawable/rewind" />
+
+        <ImageView
+            android:id="@+id/play_icon"
+            style="@style/IconImageView"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/pause_icon"
+            style="@style/IconImageView"
+            android:src="@drawable/pause" />
+
+        <ImageView
+            android:id="@+id/stop_icon"
+            style="@style/IconImageView"
+            android:src="@drawable/stop" />
+
+        <ImageView
+            android:id="@+id/forward_icon"
+            style="@style/IconImageView"
+            android:src="@drawable/forward" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/back_icon"
+        style="@style/BackIconImageView"
+        android:src="@drawable/back"/>
+
+</LinearLayout>

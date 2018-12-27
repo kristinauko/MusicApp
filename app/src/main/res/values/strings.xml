@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Player</string>
+    <string name="music_name">Music</string>
+    <string name="podcast_name">Podcasts</string>
+    <string name="audiobook_name">Audiobooks</string>
+    <string name="now_playing">Now Playing</string>
+</resources>

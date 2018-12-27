@@ -1,0 +1,78 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- activity_main.xml: ImageView style. -->
+    <style name="MainActivityImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <!-- activity_main.xml: TextView style. -->
+    <style name="MainActivityTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/margin_24</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+    <!-- items_list.xml: Track TextView style. -->
+    <style name="ListActivityTrackTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">@dimen/list_layout_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- items_list.xml: Author TextView style. -->
+    <style name="ListActivityAuthorTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+    <!-- activity_currently_playing.xml: Author TextView style. -->
+    <style name="CurrentlyPlayingAuthorTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/main_layout_text</item>
+    </style>
+    <!-- activity_currently_playing.xml: Track TextView style. -->
+    <style name="CurrentlyPlayingTrackTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name=" android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">@dimen/track_layout_text</item>
+    </style>
+    <!-- activity_currently_playing.xml: icons' Line LinearLayout style -->
+    <style name="IconsLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_24</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- activity_currently_playing.xml: icon style. -->
+    <style name="IconImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- activity_currently_playing.xml: back icon style. -->
+    <style name="BackIconImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginTop">@dimen/margin_24</item>
+    </style>
+</resources>
+
